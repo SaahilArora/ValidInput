@@ -1,6 +1,5 @@
 package com.vaildinput;
 
-import android.support.annotation.NonNull;
 import android.widget.TextView;
 
 /**
@@ -11,7 +10,7 @@ public class ValidInput implements Validate{
 
     TextView textView ;
 
-    public ValidInput(@NonNull  TextView textView) {
+    public ValidInput(TextView textView) {
         this.textView = textView;
     }
 
